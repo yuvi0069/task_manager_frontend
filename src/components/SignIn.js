@@ -25,7 +25,7 @@ const SignIn = (props) => {
     };
 
     const handleGoogleSignUp = async (response) => {
-        window.open("https://task-manager-6ttv.onrender.com/auth/google/callback","_self");
+        window.location.href = "https://task-manager-6ttv.onrender.com/auth/google";
         
     };
 
