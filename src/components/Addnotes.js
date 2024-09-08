@@ -4,7 +4,7 @@ import notecontext from '../context/notes/notescontext';
 export default function Addnotes() {
     const context = useContext(notecontext);
     const { addnotes } = context;
-    const [note, setNote] = useState({ title: "", desc: "", tag:"" }); // Default tag value
+    const [note, setNote] = useState({ title: "", desc: "", tag: "" }); // Default tag value
 
     const handleClick = async (e) => {
         e.preventDefault();
